@@ -1,6 +1,6 @@
 <?php
 
-namespace budyaga\cropper;
+namespace kuzmiand\cropper;
 
 use yii\base\InvalidConfigException;
 use yii\helpers\Json;
@@ -88,7 +88,7 @@ class Widget extends InputWidget
         if (!isset(Yii::$app->i18n->translations['cropper']) && !isset(Yii::$app->i18n->translations['cropper/*'])) {
             Yii::$app->i18n->translations['cropper'] = [
                 'class' => 'yii\i18n\PhpMessageSource',
-                'basePath' => '@budyaga/cropper/messages',
+                'basePath' => '@kuzmiand/cropper/messages',
                 'forceTranslation' => true,
                 'fileMap' => [
                     'cropper' => 'cropper.php'

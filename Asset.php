@@ -1,6 +1,6 @@
 <?php
 
-namespace budyaga\cropper;
+namespace kuzmiand\cropper;
 
 use yii\web\AssetBundle;
 
@@ -12,7 +12,7 @@ class Asset extends AssetBundle
 	/**
 	 * @inheritdoc
 	 */
-	public $sourcePath = '@budyaga/cropper/assets';
+	public $sourcePath = '@kuzmiand/cropper/assets';
 
 	/**
 	 * @inheritdoc
